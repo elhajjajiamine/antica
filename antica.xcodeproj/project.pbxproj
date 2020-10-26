@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1089FDE22546F113003B3A28 /* anticaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1089FDE12546F113003B3A28 /* anticaApp.swift */; };
+		1089FDE42546F113003B3A28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1089FDE32546F113003B3A28 /* ContentView.swift */; };
+		1089FDE62546F113003B3A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1089FDE52546F113003B3A28 /* Assets.xcassets */; };
+		1089FDE92546F113003B3A28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1089FDE82546F113003B3A28 /* Preview Assets.xcassets */; };
+		1089FDF42546F114003B3A28 /* anticaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1089FDF32546F114003B3A28 /* anticaTests.swift */; };
+		1089FDFF2546F114003B3A28 /* anticaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1089FDFE2546F114003B3A28 /* anticaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1089FDF02546F114003B3A28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1089FDD62546F113003B3A28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1089FDDD2546F113003B3A28;
+			remoteInfo = antica;
+		};
+		1089FDFB2546F114003B3A28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1089FDD62546F113003B3A28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1089FDDD2546F113003B3A28;
+			remoteInfo = antica;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1089FDDE2546F113003B3A28 /* antica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = antica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1089FDE12546F113003B3A28 /* anticaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anticaApp.swift; sourceTree = "<group>"; };
+		1089FDE32546F113003B3A28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1089FDE52546F113003B3A28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1089FDE82546F113003B3A28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1089FDEA2546F113003B3A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1089FDEF2546F114003B3A28 /* anticaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anticaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1089FDF32546F114003B3A28 /* anticaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anticaTests.swift; sourceTree = "<group>"; };
+		1089FDF52546F114003B3A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1089FDFA2546F114003B3A28 /* anticaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anticaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1089FDFE2546F114003B3A28 /* anticaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anticaUITests.swift; sourceTree = "<group>"; };
+		1089FE002546F114003B3A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1089FDDB2546F113003B3A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1089FDEC2546F114003B3A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1089FDF72546F114003B3A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1089FDD52546F113003B3A28 = {
+			isa = PBXGroup;
+			children = (
+				1089FDE02546F113003B3A28 /* antica */,
+				1089FDF22546F114003B3A28 /* anticaTests */,
+				1089FDFD2546F114003B3A28 /* anticaUITests */,
+				1089FDDF2546F113003B3A28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1089FDDF2546F113003B3A28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1089FDDE2546F113003B3A28 /* antica.app */,
+				1089FDEF2546F114003B3A28 /* anticaTests.xctest */,
+				1089FDFA2546F114003B3A28 /* anticaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1089FDE02546F113003B3A28 /* antica */ = {
+			isa = PBXGroup;
+			children = (
+				1089FDE12546F113003B3A28 /* anticaApp.swift */,
+				1089FDE32546F113003B3A28 /* ContentView.swift */,
+				1089FDE52546F113003B3A28 /* Assets.xcassets */,
+				1089FDEA2546F113003B3A28 /* Info.plist */,
+				1089FDE72546F113003B3A28 /* Preview Content */,
+			);
+			path = antica;
+			sourceTree = "<group>";
+		};
+		1089FDE72546F113003B3A28 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1089FDE82546F113003B3A28 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1089FDF22546F114003B3A28 /* anticaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1089FDF32546F114003B3A28 /* anticaTests.swift */,
+				1089FDF52546F114003B3A28 /* Info.plist */,
+			);
+			path = anticaTests;
+			sourceTree = "<group>";
+		};
+		1089FDFD2546F114003B3A28 /* anticaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1089FDFE2546F114003B3A28 /* anticaUITests.swift */,
+				1089FE002546F114003B3A28 /* Info.plist */,
+			);
+			path = anticaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1089FDDD2546F113003B3A28 /* antica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1089FE032546F114003B3A28 /* Build configuration list for PBXNativeTarget "antica" */;
+			buildPhases = (
+				1089FDDA2546F113003B3A28 /* Sources */,
+				1089FDDB2546F113003B3A28 /* Frameworks */,
+				1089FDDC2546F113003B3A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = antica;
+			productName = antica;
+			productReference = 1089FDDE2546F113003B3A28 /* antica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1089FDEE2546F114003B3A28 /* anticaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1089FE062546F114003B3A28 /* Build configuration list for PBXNativeTarget "anticaTests" */;
+			buildPhases = (
+				1089FDEB2546F114003B3A28 /* Sources */,
+				1089FDEC2546F114003B3A28 /* Frameworks */,
+				1089FDED2546F114003B3A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1089FDF12546F114003B3A28 /* PBXTargetDependency */,
+			);
+			name = anticaTests;
+			productName = anticaTests;
+			productReference = 1089FDEF2546F114003B3A28 /* anticaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1089FDF92546F114003B3A28 /* anticaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1089FE092546F114003B3A28 /* Build configuration list for PBXNativeTarget "anticaUITests" */;
+			buildPhases = (
+				1089FDF62546F114003B3A28 /* Sources */,
+				1089FDF72546F114003B3A28 /* Frameworks */,
+				1089FDF82546F114003B3A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1089FDFC2546F114003B3A28 /* PBXTargetDependency */,
+			);
+			name = anticaUITests;
+			productName = anticaUITests;
+			productReference = 1089FDFA2546F114003B3A28 /* anticaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1089FDD62546F113003B3A28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					1089FDDD2546F113003B3A28 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					1089FDEE2546F114003B3A28 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 1089FDDD2546F113003B3A28;
+					};
+					1089FDF92546F114003B3A28 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 1089FDDD2546F113003B3A28;
+					};
+				};
+			};
+			buildConfigurationList = 1089FDD92546F113003B3A28 /* Build configuration list for PBXProject "antica" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1089FDD52546F113003B3A28;
+			productRefGroup = 1089FDDF2546F113003B3A28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1089FDDD2546F113003B3A28 /* antica */,
+				1089FDEE2546F114003B3A28 /* anticaTests */,
+				1089FDF92546F114003B3A28 /* anticaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1089FDDC2546F113003B3A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1089FDE92546F113003B3A28 /* Preview Assets.xcassets in Resources */,
+				1089FDE62546F113003B3A28 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1089FDED2546F114003B3A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1089FDF82546F114003B3A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1089FDDA2546F113003B3A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1089FDE42546F113003B3A28 /* ContentView.swift in Sources */,
+				1089FDE22546F113003B3A28 /* anticaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1089FDEB2546F114003B3A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1089FDF42546F114003B3A28 /* anticaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1089FDF62546F114003B3A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1089FDFF2546F114003B3A28 /* anticaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1089FDF12546F114003B3A28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1089FDDD2546F113003B3A28 /* antica */;
+			targetProxy = 1089FDF02546F114003B3A28 /* PBXContainerItemProxy */;
+		};
+		1089FDFC2546F114003B3A28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1089FDDD2546F113003B3A28 /* antica */;
+			targetProxy = 1089FDFB2546F114003B3A28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1089FE012546F114003B3A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1089FE022546F114003B3A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1089FE042546F114003B3A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"antica/Preview Content\"";
+				DEVELOPMENT_TEAM = 28FY2PHCA4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = antica/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elhajjaji.antica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1089FE052546F114003B3A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"antica/Preview Content\"";
+				DEVELOPMENT_TEAM = 28FY2PHCA4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = antica/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elhajjaji.antica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1089FE072546F114003B3A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28FY2PHCA4;
+				INFOPLIST_FILE = anticaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elhajjaji.anticaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/antica.app/antica";
+			};
+			name = Debug;
+		};
+		1089FE082546F114003B3A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28FY2PHCA4;
+				INFOPLIST_FILE = anticaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elhajjaji.anticaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/antica.app/antica";
+			};
+			name = Release;
+		};
+		1089FE0A2546F114003B3A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28FY2PHCA4;
+				INFOPLIST_FILE = anticaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elhajjaji.anticaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = antica;
+			};
+			name = Debug;
+		};
+		1089FE0B2546F114003B3A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28FY2PHCA4;
+				INFOPLIST_FILE = anticaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elhajjaji.anticaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = antica;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1089FDD92546F113003B3A28 /* Build configuration list for PBXProject "antica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1089FE012546F114003B3A28 /* Debug */,
+				1089FE022546F114003B3A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1089FE032546F114003B3A28 /* Build configuration list for PBXNativeTarget "antica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1089FE042546F114003B3A28 /* Debug */,
+				1089FE052546F114003B3A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1089FE062546F114003B3A28 /* Build configuration list for PBXNativeTarget "anticaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1089FE072546F114003B3A28 /* Debug */,
+				1089FE082546F114003B3A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1089FE092546F114003B3A28 /* Build configuration list for PBXNativeTarget "anticaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1089FE0A2546F114003B3A28 /* Debug */,
+				1089FE0B2546F114003B3A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1089FDD62546F113003B3A28 /* Project object */;
+}
